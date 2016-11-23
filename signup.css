@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;  /* FAILS */
+}
+
+html {
+  height: 100%; /* TOOLS SHOW DIFFERENT VAL */
+}
+
+main  {
+  background-color: light-blue; /* FAILS */
+  min-height: 100%; /* EVEN THIS FAILS */
+  background: maroon; /* FAILS */
+  box-sizing: border-box; /* FAILS */
+}
+
+p {
+  text-align: center; /* FAILS */
+}
