@@ -1,18 +1,78 @@
 * {
-  box-sizing: border-box;  /* FAILS */
+  /* box-sizing: border-box; */
 }
 
-html {
-  height: 100%; /* TOOLS SHOW DIFFERENT VAL */
+body {
+  background: lightblue;
 }
 
-main  {
-  background-color: light-blue; /* FAILS */
-  min-height: 100%; /* EVEN THIS FAILS */
-  background: maroon; /* FAILS */
-  box-sizing: border-box; /* FAILS */
+main {
+  height: 800px;
+  margin-top: 50px;
+}
+
+#form_container {
+  position: relative;
+  top: 20px;
+  background: white;
+  margin: auto;
+  width: 400px;
+  height: 400px;
+  padding: 40px 40px 40px 40px;
+}
+
+h2, .label, .input, .button {
+  font-family: monospace;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+
+}
+
+.label {
+  display: block;
+  width: 320px;
+  margin: 20px;
+  text-align: left;
+  margin-left: 40px;
+}
+
+.input {
+  margin: 20px 40px;
+  width: 320px;
+  height: 20px;
+  border: 2px solid grey;
+  padding: 5px;
+}
+
+.button {
+  display: block;
+  height: 40px;
+  width: 320px;
+  margin: 5px auto;
+  text-align: center;
+  background-color: green;
+}
+
+#waves_logo {
+  /*margin: top/bottom left/right;*/
+  /*margin: top right bottom left;*/
+  margin: 0px auto;
+  display: block;
+}
+
+#waves_logo img {
+  height: 35px;
+  position: relative;
 }
 
 p {
-  text-align: center; /* FAILS */
+  text-align: center;
+}
+
+.footer {
+  margin-top: 30px;
 }
